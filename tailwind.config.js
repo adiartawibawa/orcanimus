@@ -14,6 +14,27 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ["Nunito", ...defaultTheme.fontFamily.sans],
+                serif: [
+                    "Merriweather",
+                    "Constantia",
+                    "Lucida Bright",
+                    "Lucidabright",
+                    "Lucida Serif",
+                    "Lucida",
+                    "DejaVu Serif",
+                    "Bitstream Vera Serif",
+                    "Liberation Serif",
+                    "Georgia",
+                    "serif",
+                ],
+                mono: [
+                    "Menlo",
+                    "Monaco",
+                    "Consolas",
+                    "Liberation Mono",
+                    "Courier New",
+                    "monospace",
+                ],
             },
         },
     },
